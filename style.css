@@ -5,6 +5,10 @@
     font-family: poppins,sans-serif;
 }
 
+.container{
+    background-color: #f1f1f1;
+}
+
 .navbar{
     display: flex;
     justify-content: space-between;
@@ -39,4 +43,66 @@ span{
 .links:hover{
     color: white;
     transition: 0.5 ease-in-out;
+}
+
+.down-all{
+    height: 100vh;
+    width: 100%;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10vh;
+    margin-left: 40px; 
+}
+
+.heading{
+    position: relative;
+}
+
+.online{
+    position: absolute;
+    margin-top: 20px;
+    color: #f7c23e;
+    font-size: 50px;
+    font-weight: 700px;
+}
+
+.edu{
+    position: absolute;
+    margin-top: 70px;
+    font-size: 90px;
+    color: #f7c23e;
+}
+
+.para{
+    position: absolute;
+    margin-top: 220px;
+    width: 33%;
+    color: gray;
+}
+
+.come{
+    position: absolute;
+    margin-top: 380px;
+}
+
+.button{
+    position: absolute;
+    margin-top: 450px;
+    width: 180px;
+    height: 40px;
+    background-color: #342c7b;
+    border: none;
+    border-radius: 30px;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.pic{
+    float: right;
+    width: 57%;
+    overflow: hidden;
 }
