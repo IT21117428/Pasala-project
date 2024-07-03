@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: poppins,sans-serif;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(167, 167, 251);
+    height: 9vh;
+    width: 100%;
+}
+
+.logo{
+    padding-top: 18px;
+    margin-left: 40px;
+    color: white
+}
+
+span{
+    color: #f7c23e;
+}
+
+.navbar-menu{
+    display: flex;
+    margin-right: 20px;
+}
+
+.links{
+    padding: 18px 30px 0 30px;
+    font-size: 1.1rem;
+    text-decoration: none;
+    font-weight: 500;
+    color: #342c7b;
+}
+
+.links:hover{
+    color: white;
+    transition: 0.5 ease-in-out;
+}
