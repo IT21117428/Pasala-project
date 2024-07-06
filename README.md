@@ -1,5 +1,7 @@
 # Pasala-project
 
+![Capture](https://github.com/IT21117428/Pasala-project/assets/87494020/07f2bbff-3c3f-4360-8a65-83412917e84e)
+
 # Pasala.com
 
 ## Description
